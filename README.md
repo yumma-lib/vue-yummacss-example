@@ -1,45 +1,34 @@
-# vue-yummacss-example
+<h3 align="center">Yumma CSS — Vue</h3>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  A Vue project with Yumma CSS.
+  <br>
+  <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
 
-## Recommended IDE Setup
+## Get started
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Yumma CSS is a utility-first library that uses abbreviated naming conventions that follow regular CSS syntax to help you debug, scale, and maintain your markup better and get your application out the door faster.
 
-## Type Support for `.vue` Imports in TS
+## Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+The first thing you need to do is clone the repository.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone https://github.com/yumma-lib/vue-yummacss-example.git
 ```
 
-### Compile and Hot-Reload for Development
+Then you can go ahead and install the dependencies.
 
-```sh
+```bash
+npm i
+```
+
+Once that's done, you can start local development.
+
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## License
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This project is under the MIT License.
